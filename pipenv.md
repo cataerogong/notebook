@@ -1,6 +1,6 @@
 # pipenv 笔记
 
-基于 pipenv `version 2018.11.26`
+基于: pipenv `version 2018.11.26`, windows
 
 * github: <https://github.com/pypa/pipenv/>
 * docs: <https://docs.pipenv.org/>
@@ -33,8 +33,8 @@
 有 3 个位置，pipenv 运行时会通过环境变量来选择：
 
 1. `PIPENV_VENV_IN_PROJECT=1`: (最高优先级)在项目目录内创建 `.venv` 文件夹
-2. `WORKON_HOME=your/virtualenvs/path`: (次优先级)在指定目录内创建项目虚拟环境文件夹
-3. (默认)在用户文件夹(C:\Users\username) 的 `.virtualenvs` 目录下创建项目的虚拟环境文件夹
+2. `WORKON_HOME=your\virtualenvs\path`: (次优先级)在指定目录内创建项目虚拟环境文件夹
+3. (默认)在 `%USERPROFILE%\.virtualenvs` 目录下创建项目的虚拟环境文件夹
 
 **[ 注意 ]** 某些情况会导致 pipenv 找不到虚拟环境从而重新创建虚拟环境
 1. pipenv 命令每次执行时都会判断环境变量，因此创建完虚拟环境后再改变环境变量会导致 pipenv 重新创建虚拟环境
