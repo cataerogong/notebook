@@ -59,13 +59,13 @@ docs: <https://docs.pipenv.org/>
     - 这可以保证创建的虚拟环境与当初生成 `Pipfile`、`Pipfile.lock` 文件时的环境保持一致。
 
   + 如果项目根目录没下有 `Pipfile` 和 `Pipfile.lock` 文件，使用 pipenv 本身所在的 python 版本创建一个 *初始虚拟环境*。
-    - 这里也可以在最后添加 `--two|three`、`--python x[.y[.z]]`、`--python path\to\python` 参数来指定 python 版本，等同于 `pipenv --two|three`、`pipenv --python x[.y[.z]]`、`pipenv --python path\to\python`。
+    - 这里也可以在最后添加 `--two|three`、`--python x[.y[.z]]`、`--python path\to\python.exe` 参数来指定 python 版本，等同于 `pipenv --two|three`、`pipenv --python x[.y[.z]]`、`pipenv --python path\to\python.exe`。
 
 * `pipenv --two|three`
 
   使用 python 2 或 3 创建一个 *初始虚拟环境*。
 
-* `pipenv --python x[.y[.z]]` 或 `pipenv --python path\to\python`
+* `pipenv --python x[.y[.z]]` 或 `pipenv --python path\to\python.exe`
 
   使用指定的 python 版本创建一个 *初始虚拟环境*。
 
