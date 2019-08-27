@@ -59,4 +59,38 @@
     pip freeze > requirements.txt
     ```
 
-## 
+  * 我写了一个小工具 `pkgtree`，可以展示 Python 包的依赖树状图，并且可以生成 Python 包及其依赖包的 `pip uninstall` 命令。
+    ~~~
+    > pkgtree
+    # 输出
+    autopep8 == 1.4.4
+      pycodestyle == 2.5.0
+    docutils == 0.15.2
+    pip == 19.2.2
+    pkgtree == 0.5
+      setuptools == 40.8.0
+    ~~~
+    ~~~
+    > pkgtree autopep8 -u -p
+    # 输出
+    pip uninstall --yes autopep8
+    pip uninstall --yes pycodestyle
+    ~~~
+
+## 在项目中使用
+
+  * 系统 Python 环境
+
+    系统 Python 环境中尽量不要安装 Python 包。
+
+  * 项目虚拟环境
+
+    为每个项目建立对应的虚拟环境，在其中安装项目所需的 Python 包。
+
+  * `depends.txt`
+
+    维护一个 `depends.txt` 文件，记录项目的直接依赖包及 Python 环境信息。
+
+  * `requirements.txt`
+
+    维护 `requirements.txt` 文件，每次 Python 包有变动都要及时更新这个文件。最好在每次 release 之后都重新生成这个文件。
