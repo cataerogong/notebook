@@ -3,7 +3,7 @@
 2019-09-02
 __________
 
-* `PySimpleGUI` [github.com/PySimpleGUI/PySimpleGUI]
+* `PySimpleGUI` [https://github.com/PySimpleGUI/PySimpleGUI]
 
   极简 GUI 框架，基于 Python 自带的 tkinter 图形界面库。（还有 PySimpleGUIQt, PySimpleGUIwx）
 
@@ -11,7 +11,7 @@ __________
 
   目前，开发者更新很活跃，可能变动较大。
 
-* `docopt` [github.com/docopt/docopt]
+* `docopt` [https://github.com/docopt/docopt]
 
   从 *使用说明* 中识别 *命令行参数定义* 并自动解析。
 
@@ -41,7 +41,7 @@ __________
             print('Bye-bye, {}!'.format(' and '.join(arguments['<name>'])))
     ```
 
-* `dataset` [github.com/pudo/dataset]
+* `dataset` [https://github.com/pudo/dataset]
 
   简单易用的数据库接口。自动创建表、增加列
 
@@ -57,15 +57,15 @@ __________
     john = table.find_one(name='John Doe')
     ```
 
-* `peewee` [github.com/coleifer/peewee]
+* `peewee` [https://github.com/coleifer/peewee]
 
   轻量级的数据库 ORM 模块。
 
-* `SQLAlchemy` [github.com/sqlalchemy/sqlalchemy]
+* `SQLAlchemy` [https://github.com/sqlalchemy/sqlalchemy]
 
   强大的数据库 ORM 模块。
 
-* `sh` [github.com/amoffat/sh]
+* `sh` [https://github.com/amoffat/sh]
 
   ( 只支持 linux,osx ) 比 subprocess 更好用的子进程模块。在 Python 里调用外部程序并处理返回结果。
 
@@ -74,14 +74,14 @@ __________
     sh.echo('hello world!')
     ```
 
-* `python-patterns` [github.com/faif/python-patterns]
+* `python-patterns` [https://github.com/faif/python-patterns]
 
   python 实现各种 *设计模式* 的示例。
 
 2019-08-27
 __________
 
-* `pipdeptree` [github.com/naiquevin/pipdeptree]
+* `pipdeptree` [https://github.com/naiquevin/pipdeptree]
 
   显示 Python 包依赖树。
 
@@ -90,14 +90,14 @@ __________
 2019-08-20
 __________
 
-* `requests` [github.com/psf/requests]
+* `requests` [https://github.com/psf/requests]
 
   Python HTTP Requests for Humans™ ✨🍰✨
 
-* `requests-html` [github.com/psf/requests-html]
+* `requests-html` [https://github.com/psf/requests-html]
 
   Pythonic HTML Parsing for Humans™
 
-* `interactive-coding-challenges` [github.com/donnemartin/interactive-coding-challenges]
+* `interactive-coding-challenges` [https://github.com/donnemartin/interactive-coding-challenges]
 
   120+ interactive Python coding interview challenges (algorithms and data structures).
