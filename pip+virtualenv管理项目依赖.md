@@ -1,14 +1,21 @@
-# 使用 `pip` + `virtualenv` + `virtualenvwrapper-win` 管理 Python 项目的依赖项
+# 使用 `pip` + `virtualenv` 管理 Python 项目的依赖项
 
 ## 安装
 
+  * 主要工具：`pip`, `virtualenv`
   ```
   python -m pip install -upgrade pip
   pip install virtualenv
-  pip install virtualenv-win
   ```
 
-## 创建虚拟环境
+  * 辅助工具：`virtualenvwrapper-win`, `pipdeptree`, `pip-tools`
+  ```
+  pip install virtualenvwrapper-win
+  pip install pipdeptree
+  pip install pip-tools
+  ```
+
+## 创建虚拟环境 (`virtualenv` + `virtualenvwrapper-win`)
 
   * 设置虚拟环境根目录
 
@@ -54,7 +61,7 @@
     PyInstaller = "*"
     ```
 
-  * 更新 requirements.txt 文件
+  * 更新 `requirements.txt` 文件
     ```
     pip freeze > requirements.txt
     ```
