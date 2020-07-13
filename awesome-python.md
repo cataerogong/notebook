@@ -1,5 +1,56 @@
 # Awesome Python
 
+2020-07-13
+__________
+
+* `fire` [https://github.com/google/python-fire]
+
+  Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
+
+  Google 开发的 Python CLI 库，能够自动为任意程序生成 CLI 界面。
+
+  ``` Python
+  import fire
+
+  def hello(name="World"):
+    return "Hello %s!" % name
+
+  if __name__ == '__main__':
+    fire.Fire(hello)
+  ```
+
+2020-07-11
+__________
+
+* `Pydantic` [https://github.com/samuelcolvin/pydantic]
+
+  Data validation and settings management using Python type hinting.
+
+  基于 Python 3.6+ 的 type hints.
+
+* `Click` [https://github.com/pallets/click/] [https://click.palletsprojects.com/]
+
+  `Click` is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary.
+
+  快速方便的 CLI 命令行程序开发库。
+
+* `FastAPI` [https://github.com/tiangolo/fastapi] [https://fastapi.tiangolo.com/]
+
+  `FastAPI` is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+
+  快速方便的 Web API 框架，基于 Python 3.6+ 的 type hints。
+
+* `Typer` [https://github.com/tiangolo/typer] [https://typer.tiangolo.com/]
+
+  `Typer` is a library for building CLI applications that users will love using and developers will love creating. Based on Python 3.6+ type hints.
+
+  快速方便的 CLI 命令行程序开发库，基于 Python 3.6+ 的 type hints。它的底层主要基于 `Click`，但比 `Click` 更方便。
+
+  能根据 Python 代码:
+    - 自动解析、验证命令行参数
+    - 自动生成 help text
+    - 支持多层命令结构 等
+
 2019-09-02
 __________
 
