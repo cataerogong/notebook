@@ -1,5 +1,22 @@
 # Awesome Python
 
+2023-05-10
+----------
+
+* `rich` [https://github.com/Textualize/rich]
+
+  Rich 是一个 Python 库，可以为您在终端中提供富文本和精美格式。
+
+  Rich 的 API 让在终端输出颜色和样式变得很简单。此外，Rich 还可以绘制漂亮的表格、进度条、markdown、语法高亮的源代码以及栈回溯信息（tracebacks）等——开箱即用。
+
+  强大的命令行/终端界面 UI 库。
+
+* `textual` [https://github.com/Textualize/textual]
+
+  Textual is a Rapid Application Development framework for Python. Build sophisticated user interfaces with a simple Python API. Run your apps in the terminal and (coming soon) a web browser!
+
+  基于 `rich` 库的命令行/终端界面应用开发框架。
+
 2020-07-13
 __________
 
